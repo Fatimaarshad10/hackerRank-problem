@@ -1,0 +1,77 @@
+.main-heading-2 {
+  display: none;
+}
+.main-heading:hover + .main-heading-2 {
+  display: block;
+  text-align: center;
+  color: rgb(128, 77, 0);
+  font-family: "Trebuchet MS";
+  margin: 6rem auto;
+}
+.twitter,
+.googlePlus,
+.instagram {
+  display: none;
+}
+
+.facebook:hover + .twitter,
+.facebook:hover + .instagram {
+  display: block;
+  width: 4rem;
+  background-color: blueviolet;
+}
+/* whatsapp and apply text */
+.main-whatsapp {
+  background-color: rgb(230, 255, 218);
+  margin: 0 auto;
+  height: 40vh;
+  display: grid;
+  grid-template-columns: 2fr 2fr 0fr 0fr;
+  padding: 0% 4rem;
+  max-width: 100%;
+}
+.whatsapp-heading1 {
+  margin: 10% auto;
+  max-width: 20rem;
+  font-size: 3.2rem;
+  font-family: Arial, Verdana, sans-serif;
+  font-weight: 400;
+  margin-left: 0%;
+}
+.whatsapp-heading3 {
+  margin: 13% auto;
+  font-size: 1rem;
+  font-family: Arial, Verdana, sans-serif;
+}
+.whatsapp-paragraph {
+  font-size: 0.67rem;
+}
+@media screen and (max-width: 992px) {
+  .main-whatsapp {
+    background-color: rgb(37,211,102);
+    display: block;
+    height: 50vh;
+  }
+}
+.whatsapp-card{
+  padding: 3rem 3rem;
+  background-color: rgb(230, 255, 218);
+  color: white;
+
+
+}
+.whatsapp-card-1{
+  border-radius: 10%;
+background-color: #111b21;
+height:50vh;
+
+
+}
+.card{
+  background-color: rgb(230, 255, 218) !important;
+
+}
+.whatsapp-card-1:hover{
+  background-color: rgb(37,211,102) !important;
+
+}

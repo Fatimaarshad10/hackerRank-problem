@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+    font-family: monospace;
+
+}
+
+.joke_container, .container {
+    max-width: 400px;
+    padding: 50px 20px;
+    background-color: rgb(126, 126, 222);
+    box-shadow: 10px 10px 5px 0px whitesmoke;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.btn, .list-group {
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 0.99rem;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    color: rgb(126, 126, 222);
+    background-color: whitesmoke;
+
+}
+
+h1 {
+    font-size: 1.1rem;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.new-joke-btn, .list-group {
+    background-color: rgb(0, 0, 0);
+}
+
+.joke-text, .list-group {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
+.search-input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+.main-container{
+    max-width: 400px;
+    background-color: rgb(126, 126, 222);
+
+    margin: 20px auto;
+    padding: 30px;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 10px 10px 5px 0px whitesmoke;
+
+}
+
+.main-heading , .main-paragraph{
+    color: rgb(126, 126, 222);
+    background-color: black;
+    max-width: 80%;
+    padding: 30px ;
+}

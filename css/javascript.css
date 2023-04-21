@@ -1,0 +1,53 @@
+*{
+    margin:0%;
+    padding: 0%;
+    }
+
+.main{
+    color: aliceblue;
+    font-size: 4rem;
+   text-align: center;
+   text-transform: uppercase;
+}
+.people{
+    
+    background-color: brown;
+    color: rgb(255, 241, 241);
+    display: grid;
+    font-size: 3rem;
+    grid-template-columns: repeat(4,1fr);
+  align-content: center;
+  margin: 6rem;
+ 
+
+}
+
+@media (width <= 700px){
+    .people{
+    
+       
+        display: grid;
+        font-size: 3rem;
+
+        grid-template-columns: repeat(1,1fr);
+     
+    
+    }
+}
+.section{
+    display: flex;
+    width: 80%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+.section-item{
+    scroll-snap-align: start ;
+    background-color: rgb(6, 90, 78);
+
+}
+.header1{
+    background-color: rgb(99, 60, 3);
+}
+.header2{
+    background-color: rgb(151, 125, 125);
+}
